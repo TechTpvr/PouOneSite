@@ -1,339 +1,503 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
-
+<!DOCTYPE html><html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b0e13"><title>PouOne | فناوری در یک خانواده</title>
 
-    <title>PouOne | خانواده ابزارهای هوشمند</title>
+<meta name="description" content="PouOne؛ خانواده‌ای از نرم‌افزارهای کاربردی برای ارتباط و مدیریت دستگاه‌های دیجیتال.">
 
-    <meta name="description" content="PouOne؛ مجموعه‌ای از ابزارهای هوشمند برای ارتباط، انتقال فایل و مدیریت دستگاه‌ها.">
+<link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="style.css">
+</head><body><div class="background-glow glow-one"></div>
+<div class="background-glow glow-two"></div>
 
-</head>
+<!-- HEADER -->
 
-<body>
+<header class="header">
 
-    <!-- HEADER -->
+    <a href="#home" class="brand">
+        <img src="assets/PouOne.png" alt="PouOne">
+        <span>PouOne</span>
+    </a>
 
-    <header class="header">
+    <nav class="navigation">
+        <a href="#home">خانه</a>
+        <a href="#products">محصولات</a>
+        <a href="#about">درباره ما</a>
+    </nav>
 
-        <a href="#home" class="brand">
-            <img src="logo.png" alt="PouOne">
-            <span>PouOne</span>
-        </a>
+    <button class="theme-toggle" id="themeToggle" aria-label="تغییر پوسته">
+        ☼
+    </button>
 
-        <button class="theme-button" id="themeButton">
-            ☼
-        </button>
-
-    </header>
+</header>
 
 
-    <!-- HOME PAGE -->
+<!-- HOME -->
 
-    <main id="homePage">
+<main id="homePage">
 
-        <section class="hero">
+    <section class="hero" id="home">
 
-            <div class="hero-label">
-                خانواده محصولات PouOne
+        <div class="hero-content">
+
+            <div class="hero-badge">
+                <span class="status-dot"></span>
+                نسل جدید ابزارهای دیجیتال
             </div>
 
             <h1>
-                ارتباطی ساده‌تر،
-                <span>دنیایی هوشمندتر</span>
+                فناوری،
+                <span>در یک خانواده.</span>
             </h1>
 
             <p>
-                مجموعه‌ای از ابزارهای کاربردی برای اتصال،
-                ارتباط و مدیریت دستگاه‌های دیجیتال.
+                PouOne مجموعه‌ای از محصولات نرم‌افزاری
+                برای ساده‌تر کردن ارتباط، انتقال و مدیریت
+                دستگاه‌های دیجیتال است.
             </p>
 
-            <a href="#products" class="hero-button">
-                مشاهده محصولات
+            <a href="#products" class="primary-button">
+                آشنایی با محصولات
                 <span>←</span>
             </a>
 
-        </section>
+        </div>
+
+        <div class="hero-visual">
+
+            <div class="hero-logo-frame">
+                <img src="assets/PouOne.png" alt="PouOne">
+            </div>
+
+            <div class="floating-tag tag-top">
+                Smart Technology
+            </div>
+
+            <div class="floating-tag tag-bottom">
+                One Family · Multiple Solutions
+            </div>
+
+        </div>
+
+    </section>
 
 
-        <!-- PRODUCTS -->
+    <!-- PRODUCTS -->
 
-        <section class="products" id="products">
+    <section class="products-section" id="products">
 
-            <div class="section-title">
+        <div class="section-heading">
 
-                <h2>محصولات ما</h2>
+            <div>
+                <span class="section-label">OUR PRODUCTS</span>
+                <h2>محصولات PouOne</h2>
+            </div>
+
+            <p>
+                راهکارهایی کاربردی برای تجربه‌ای بهتر.
+            </p>
+
+        </div>
+
+
+        <div class="product-grid">
+
+
+            <a href="#sharepou" class="product-card">
+
+                <div class="product-image">
+                    <img src="assets/SharePou.png" alt="SharePou">
+                </div>
+
+                <span class="product-number">01</span>
+
+                <h3>SharePou</h3>
 
                 <p>
-                    دنیای PouOne را کشف کنید.
+                    انتقال سریع و آسان فایل میان دستگاه‌ها.
                 </p>
 
-            </div>
+                <div class="product-footer">
+                    <span>مشاهده محصول</span>
+                    <span class="product-arrow">←</span>
+                </div>
+
+            </a>
 
 
-            <div class="product-grid">
+            <a href="#routepou" class="product-card">
+
+                <div class="product-image">
+                    <img src="assets/RoutePou.png" alt="RoutePou">
+                </div>
+
+                <span class="product-number">02</span>
+
+                <h3>RoutePou</h3>
+
+                <p>
+                    ایجاد مسیر ارتباطی میان موبایل و رایانه.
+                </p>
+
+                <div class="product-footer">
+                    <span>مشاهده محصول</span>
+                    <span class="product-arrow">←</span>
+                </div>
+
+            </a>
 
 
-                <!-- SHAREPOU -->
+            <a href="#printpou" class="product-card">
 
-                <a href="#sharepou" class="product-card">
+                <div class="product-image">
+                    <img src="assets/PrintPou.png" alt="PrintPou">
+                </div>
 
-                    <img src="SharePou.png" alt="SharePou">
+                <span class="product-number">03</span>
 
-                    <h3>SharePou</h3>
+                <h3>PrintPou</h3>
 
-                    <p>
-                        انتقال سریع و آسان فایل میان دستگاه‌ها
-                    </p>
+                <p>
+                    مدیریت و انجام چاپ از طریق دستگاه‌های مختلف.
+                </p>
 
-                    <span class="card-arrow">←</span>
+                <div class="product-footer">
+                    <span>مشاهده محصول</span>
+                    <span class="product-arrow">←</span>
+                </div>
 
-                </a>
-
-
-                <!-- ROUTEPOU -->
-
-                <a href="#routepou" class="product-card">
-
-                    <img src="RoutePou.png" alt="RoutePou">
-
-                    <h3>RoutePou</h3>
-
-                    <p>
-                        اشتراک‌گذاری مسیر ارتباطی میان دستگاه‌ها
-                    </p>
-
-                    <span class="card-arrow">←</span>
-
-                </a>
+            </a>
 
 
-                <!-- PRINTPOU -->
+            <a href="#connectpou" class="product-card">
 
-                <a href="#printpou" class="product-card">
+                <div class="product-image">
+                    <img src="assets/ConnectPou.png" alt="ConnectPou">
+                </div>
 
-                    <img src="PrintPou.png" alt="PrintPou">
+                <span class="product-number">04</span>
 
-                    <h3>PrintPou</h3>
+                <h3>ConnectPou</h3>
 
-                    <p>
-                        چاپ مستقیم اسناد از موبایل
-                    </p>
+                <p>
+                    ارتباط و اتصال هوشمند میان دستگاه‌ها.
+                </p>
 
-                    <span class="card-arrow">←</span>
+                <div class="product-footer">
+                    <span>مشاهده محصول</span>
+                    <span class="product-arrow">←</span>
+                </div>
 
-                </a>
-
-
-                <!-- CONNECTPOU -->
-
-                <a href="#connectpou" class="product-card">
-
-                    <img src="ConnectPou.png" alt="ConnectPou">
-
-                    <h3>ConnectPou</h3>
-
-                    <p>
-                        ارتباط هوشمند و امن میان دستگاه‌ها
-                    </p>
-
-                    <span class="card-arrow">←</span>
-
-                </a>
+            </a>
 
 
-            </div>
+        </div>
 
-        </section>
-
-    </main>
+    </section>
 
 
+    <!-- ABOUT -->
 
-    <!-- PRODUCT DETAILS -->
+    <section class="about-section" id="about">
 
-    <main id="detailPage" class="detail-page">
+        <div class="about-logo">
+            <img src="assets/PouOne.png" alt="PouOne">
+        </div>
 
-        <a href="#home" class="back-button">
-            → بازگشت به صفحه اصلی
-        </a>
+        <div class="about-content">
 
-        <div class="detail-content">
+            <span class="section-label">ABOUT POUONE</span>
 
+            <h2>
+                یک خانواده،
+                <span>چندین راهکار.</span>
+            </h2>
+
+            <p>
+                PouOne با هدف توسعه نرم‌افزارهای کاربردی،
+                مستقل و هماهنگ شکل گرفته است.
+                ما به دنبال ساخت تجربه‌هایی ساده،
+                قابل اعتماد و حرفه‌ای در دنیای فناوری هستیم.
+            </p>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- PRODUCT DETAILS -->
+
+<main id="detailPage" class="detail-page">
+
+    <a href="#home" class="back-link">
+        ← بازگشت به محصولات
+    </a>
+
+    <section class="detail-layout">
+
+        <div class="detail-visual">
             <img id="detailImage" src="" alt="">
+        </div>
 
-            <div class="detail-info">
+        <div class="detail-information">
 
-                <h1 id="detailName"></h1>
+            <span class="section-label">POUONE PRODUCT</span>
 
-                <p id="detailDescription"></p>
+            <h1 id="detailName"></h1>
+
+            <p id="detailDescription"></p>
+
+            <div class="detail-features" id="detailFeatures"></div>
+
+            <div class="download-area">
+
+                <h3>دریافت نرم‌افزار</h3>
+
+                <p>
+                    نسخه موردنظر خود را انتخاب کنید.
+                </p>
 
                 <div class="download-buttons">
 
-                    <a id="androidDownload" class="download-button">
-                        دانلود نسخه اندروید
+                    <a id="androidDownload" href="#" class="download-button">
+                        Android
+                        <span>↓</span>
                     </a>
 
-                    <a id="windowsDownload" class="download-button secondary">
-                        دانلود نسخه ویندوز
+                    <a id="windowsDownload" href="#" class="download-button secondary">
+                        Windows
+                        <span>↓</span>
                     </a>
 
                 </div>
 
-                <p class="download-note">
-                    لینک دانلود پس از انتشار رسمی فعال خواهد شد.
-                </p>
+                <span class="download-status">
+                    لینک‌های دانلود پس از انتشار رسمی فعال می‌شوند.
+                </span>
 
             </div>
 
         </div>
 
-    </main>
+    </section>
+
+</main>
 
 
+<!-- FOOTER -->
 
-    <!-- FOOTER -->
+<footer class="footer">
 
-    <footer>
+    <div class="footer-top">
 
-        <div class="footer-brand">
-            PouOne
-        </div>
+        <a href="#home" class="footer-brand">
+            <img src="assets/PouOne.png" alt="PouOne">
+            <span>PouOne</span>
+        </a>
 
         <p>
-            یک خانواده، چند ابزار کاربردی.
+            فناوری در یک خانواده.
         </p>
 
-        <span>
-            © PouOne 2026
-        </span>
+    </div>
 
-    </footer>
+    <div class="footer-bottom">
 
+        <span>© 2026 PouOne. All rights reserved.</span>
 
+        <span>Designed for a smarter connection.</span>
 
-    <!-- JAVASCRIPT -->
+    </div>
 
-    <script>
-
-        const products = {
-
-            sharepou: {
-                name: "SharePou",
-                image: "SharePou.png",
-                description:
-                "SharePou ابزاری برای انتقال سریع و آسان فایل میان موبایل و رایانه است. بدون پیچیدگی، بدون دردسر و با تجربه‌ای یکپارچه."
-            },
-
-            routepou: {
-                name: "RoutePou",
-                image: "RoutePou.png",
-                description:
-                "RoutePou برای ایجاد ارتباط VPN میان موبایل و رایانه طراحی شده است. مسیری ساده برای اتصال دستگاه‌ها و استفاده مشترک از ارتباط شبکه."
-            },
-
-            printpou: {
-                name: "PrintPou",
-                image: "PrintPou.png",
-                description:
-                "PrintPou امکان ارسال اسناد و تصاویر از موبایل به رایانه و چاپ آن‌ها با پرینتر متصل به ویندوز را فراهم می‌کند."
-            },
-
-            connectpou: {
-                name: "ConnectPou",
-                image: "ConnectPou.png",
-                description:
-                "ConnectPou بستری برای ارتباط هوشمند میان دستگاه‌هاست؛ با تمرکز بر سادگی، امنیت و تجربه کاربری یکپارچه."
-            }
-
-        };
+</footer>
 
 
-        function renderPage() {
+<!-- JAVASCRIPT -->
 
-            const id = location.hash.substring(1);
+<script>
 
-            const home = document.getElementById("homePage");
+    const products = {
 
-            const detail = document.getElementById("detailPage");
+        sharepou: {
+            name: "SharePou",
+            image: "assets/SharePou.png",
+            description:
+                "SharePou راهکاری برای انتقال سریع و آسان فایل میان موبایل و رایانه است. تجربه‌ای ساده برای جابه‌جایی اسناد، تصاویر و فایل‌ها میان دستگاه‌های مختلف.",
+            features: [
+                "انتقال فایل میان موبایل و ویندوز",
+                "رابط کاربری ساده و کاربردی",
+                "تجربه انتقال یکپارچه"
+            ]
+        },
 
-            if (!products[id]) {
+        routepou: {
+            name: "RoutePou",
+            image: "assets/RoutePou.png",
+            description:
+                "RoutePou برای ایجاد مسیر ارتباطی VPN میان موبایل و رایانه طراحی شده است. راهکاری برای اشتراک‌گذاری اتصال شبکه میان دستگاه‌ها.",
+            features: [
+                "ارتباط VPN میان دستگاه‌ها",
+                "اشتراک‌گذاری مسیر ارتباطی",
+                "مدیریت ساده اتصال"
+            ]
+        },
 
-                home.style.display = "block";
+        printpou: {
+            name: "PrintPou",
+            image: "assets/PrintPou.png",
+            description:
+                "PrintPou امکان ارسال اسناد و تصاویر از موبایل به رایانه و استفاده از پرینتر متصل به ویندوز را فراهم می‌کند.",
+            features: [
+                "ارسال اسناد از موبایل",
+                "چاپ از طریق رایانه",
+                "مدیریت آسان فرایند چاپ"
+            ]
+        },
 
-                detail.style.display = "none";
+        connectpou: {
+            name: "ConnectPou",
+            image: "assets/ConnectPou.png",
+            description:
+                "ConnectPou بستری برای ارتباط هوشمند میان دستگاه‌های مختلف است؛ با تمرکز بر سادگی، امنیت و یکپارچگی.",
+            features: [
+                "ارتباط میان دستگاه‌ها",
+                "مدیریت ارتباطات",
+                "هماهنگی با خانواده PouOne"
+            ]
+        }
 
-                return;
+    };
 
-            }
 
-            const product = products[id];
+    function renderPage() {
 
-            home.style.display = "none";
+        const id = location.hash.replace("#", "").toLowerCase();
 
-            detail.style.display = "block";
+        const home = document.getElementById("homePage");
+        const detail = document.getElementById("detailPage");
 
-            document.getElementById("detailName").textContent =
-                product.name;
+        if (!products[id]) {
 
-            document.getElementById("detailImage").src =
-                product.image;
+            home.style.display = "block";
+            detail.style.display = "none";
 
-            document.getElementById("detailImage").alt =
-                product.name;
-
-            document.getElementById("detailDescription").textContent =
-                product.description;
-
-            document.getElementById("androidDownload").href =
-                id + "-Android.apk";
-
-            document.getElementById("windowsDownload").href =
-                id + "-Windows.exe";
+            return;
 
         }
 
+        const product = products[id];
 
-        window.addEventListener("hashchange", renderPage);
+        home.style.display = "none";
+        detail.style.display = "block";
 
-        renderPage();
+        document.getElementById("detailName").textContent =
+            product.name;
 
+        document.getElementById("detailImage").src =
+            product.image;
 
-        // DARK / LIGHT MODE
+        document.getElementById("detailImage").alt =
+            product.name;
 
-        const themeButton =
-            document.getElementById("themeButton");
+        document.getElementById("detailDescription").textContent =
+            product.description;
 
-        const savedTheme =
-            localStorage.getItem("pouone-theme") || "dark";
+        document.getElementById("detailFeatures").innerHTML =
+            product.features.map(item =>
+                `<div class="feature-item">
+                    <span>✓</span>
+                    ${item}
+                </div>`
+            ).join("");
 
-        document.documentElement.dataset.theme = savedTheme;
+        document.getElementById("androidDownload").href =
+            "assets/" + id + "-Android.apk";
 
-        themeButton.textContent =
-            savedTheme === "dark" ? "☼" : "☾";
+        document.getElementById("windowsDownload").href =
+            "assets/" + id + "-Windows.exe";
 
-
-        themeButton.addEventListener("click", function () {
-
-            const current =
-                document.documentElement.dataset.theme;
-
-            const next =
-                current === "dark" ? "light" : "dark";
-
-            document.documentElement.dataset.theme = next;
-
-            localStorage.setItem("pouone-theme", next);
-
-            themeButton.textContent =
-                next === "dark" ? "☼" : "☾";
-
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
         });
 
-    </script>
+    }
+
+
+    window.addEventListener("hashchange", renderPage);
+
+    renderPage();
+
+
+    // THEME SYSTEM
+
+    const themeToggle =
+        document.getElementById("themeToggle");
+
+    function setTheme(theme) {
+
+        document.documentElement.dataset.theme = theme;
+
+        localStorage.setItem("pouone-theme", theme);
+
+        themeToggle.textContent =
+            theme === "dark" ? "☼" : "☾";
+
+    }
+
+    setTheme(
+        localStorage.getItem("pouone-theme") || "dark"
+    );
+
+    themeToggle.addEventListener("click", () => {
+
+        const current =
+            document.documentElement.dataset.theme;
+
+        setTheme(
+            current === "dark" ? "light" : "dark"
+        );
+
+    });
+
+
+    // SCROLL ANIMATION
+
+    const observer = new IntersectionObserver(
+        entries => {
+
+            entries.forEach(entry => {
+
+                if (entry.isIntersecting) {
+
+                    entry.target.classList.add("visible");
+
+                    observer.unobserve(entry.target);
+
+                }
+
+            });
+
+        },
+        {
+            threshold: 0.12
+        }
+    );
+
+    document.querySelectorAll(
+        ".product-card, .about-section, .section-heading"
+    ).forEach(element => {
+
+        element.classList.add("reveal");
+
+        observer.observe(element);
+
+    });
+
+</script>
 
 </body>
 </html>
